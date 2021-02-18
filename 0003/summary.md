@@ -686,3 +686,59 @@ all architectues:
     - labels: ECS + PM
     - prioritized sampling: ECS
 
+- setup89
+    - network: 1A (4to4)
+    - labels: NE + NE_membrane + nuclear_pore + nuclear_pore_out
+    - prioritized sampling: NE
+
+- setup90
+    - network: 1B (8to4)
+    - labels: NE + NE_membrane + nuclear_pore + nuclear_pore_out
+    - prioritized sampling: NE
+
+- setup91
+    - network: 1A (4to4)
+    - labels: NE + NE_membrane + nuclear_pore + nuclear_pore_out
+    - prioritized sampling: nuclear_pore
+
+- setup92
+    - network: 1B (8to4)
+    - labels: NE + NE_membrane + nuclear_pore + nuclear_pore_out
+    - prioritized sampling: nuclear_pore
+
+- setup93
+    - network: 1A (4to4)
+    - labels: chromatin + NHChrom + EChrom + NEChrom
+    - prioritized sampling: chromatin
+
+- setup94
+    - network: 1B (8to4)
+    - labels: chromatin + NHChrom + EChrom + NEChrom
+    - prioritized sampling: chromatin
+
+- setup95
+    - network: 1A (4to4)
+    - labels: chromatin + NHChrom + EChrom + NEChrom
+    - prioritized sampling: NHChrom
+
+- setup96
+    - network: 1B (8to4)
+    - labels: chromatin + NHChrom + EChrom + NEChrom
+    - prioritized sampling: NHChrom
+
+- setup97
+    - network: 1A (4to4)
+    - labels: chromatin + NHChrom + EChrom + NEChrom
+    - prioritized sampling: EChrom
+
+- setup98
+    - network: 1B (8to4)
+    - labels: chromatin + NHChrom + EChrom + NEChrom
+    - prioritized sampling: EChrom
+
+- setup99
+    - network: 1B (8to4)
+    - labels: centrosome + distal_app + subdistal_app
+    - prioritized sampling: centrosome
+
+
