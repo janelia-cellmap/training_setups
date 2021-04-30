@@ -12,7 +12,7 @@ import argparse
 logging.basicConfig(level=logging.INFO)
 
 # running parameters
-max_iteration = 1500000
+max_iteration = 2600000
 cache_size=7
 num_workers=10
 
