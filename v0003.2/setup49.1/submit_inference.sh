@@ -10,7 +10,7 @@ for i in {0..15}; do
             [[ $running_jobs -gt 0 ]] || break
             sleep 60
     done
-    complete=`python check_inference_complete.py ${@}`;
+    complete=`python3 check_inference_complete.py ${@}`;
     echo $complete;
     if [  $complete -eq 1 ]; then
        echo ending

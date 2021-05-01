@@ -13,8 +13,8 @@ logging.basicConfig(level=logging.INFO)
 
 # running parameters
 max_iteration = 2000000
-cache_size=7
-num_workers=10
+cache_size=16
+num_workers=24
 
 # voxel size parameters
 voxel_size_labels = Coordinate((2,) * 3)
