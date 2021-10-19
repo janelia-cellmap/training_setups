@@ -23,7 +23,7 @@ voxel_size_input = Coordinate((8,) * 3)
 
 # network parameters
 steps_train = 1
-steps_inference = 5
+steps_inference = 4
 loss_name = "loss_total"
 padding = "valid"
 constant_upsample = True

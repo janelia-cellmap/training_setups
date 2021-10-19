@@ -124,7 +124,7 @@ all architectues:
 ### 8to4
 
 - _network1B_
-  - train input: (198, 198, 198), output: (104, 104, 104) (step: 2)
+  - train input: (216, 216, 216), output: (68, 68, 68) (step: 1)
 
   ```
                                                                     12 * 6
